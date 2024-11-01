@@ -1,0 +1,81 @@
+
+.header-background {
+    background: linear-gradient(135deg, #00b4d8, #48cae4, #00f5d4);
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+
+.header-background h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-background .author {
+    font-size: 0.9em;
+    color: #f1f1f1;
+    margin-top: 5px;
+}
+
+.input-section {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    padding: 30px;
+    text-align: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.input-box {
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.input-box input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-box input[type="text"]:hover {
+    border-color: #007bff;
+}
+
+.input-box .btn-calcular {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-box .btn-calcular:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #0077b6;
+    border-radius: 8px;
+    border: 2px solid #00b4d8;
+    display: inline-block;
+}
