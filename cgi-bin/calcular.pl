@@ -44,3 +44,33 @@ sub calcular {
 
     return $expresion;
 }
+
+print <<HTML;
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="header-background">
+        <h1>CALCULADORA DE EXPRESIONES</h1>
+        <p class="author">Rodrigo Francisco Flores Nuñez</p>
+    </div>
+    <div class="input-section">
+        <form action="calcular.pl" method="post">
+            <div class="input-box">
+                <label for="expression">Ingrese la operación a realizar:</label>
+                <input type="text" id="expression" name="expression" value="$expresion" required>
+                <input type="submit" value="Calcular expresión" class="btn-calcular">
+            </div>
+        </form>
+        <div class="resultado">
+            <p><strong>Resultado:</strong> $resultado</p>
+        </div>
+    </div>
+</body>
+</html>
+HTML
